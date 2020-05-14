@@ -109,6 +109,21 @@
       .no-border {
         border: none !important;
       }
+
+      .arrow {
+        border: solid white;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 3px;
+        position: relative;
+        top: -3px;
+        margin-left: 9px;
+      }
+
+      .down {
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+      }
     </style>
   </head>
 
@@ -170,7 +185,7 @@
           <a href="">Stories</a>
           <a href="">Entertainment & Arts</a>
           <a href="">Health</a>
-          <a href="" class="no-border">More</a>
+          <a href="" class="no-border">More <i class="arrow down"></i></a>
         </div>
       </div>
     </div>
